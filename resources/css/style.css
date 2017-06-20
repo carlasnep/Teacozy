@@ -1,3 +1,41 @@
-p {
-  color: red;
+/* universal styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  visited: seashell;
+  linkcolor: seashell;
+}
+
+
+/* header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 69px;
+  width: auto;
+  margin-left: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+  align-self: center;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
 }
