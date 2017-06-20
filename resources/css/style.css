@@ -14,28 +14,51 @@ a {
   linkcolor: seashell;
 }
 
-
 /* header */
 
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  flex-flow: row; wrap;
   height: 69px;
-  width: auto;
-  margin-left: 10px;
+  width: 1200px;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 5;
+  background-color: black;
+
 }
 
 .header img {
   height: 50px;
   width: auto;
   align-self: center;
+  margin-left: 10px;
 }
 
 .header li {
   list-style: none;
   display: inline-block;
-  padding-left: 20px;
+  padding: 0px 10px;
+  margin-right: 20px;
+}
+
+/* content Mission */
+
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding-top: 63px;
+}
+
+.mission h2,h4 {
+  margin: 0;
+  background-color: black;
+  padding: 10px;
 }
