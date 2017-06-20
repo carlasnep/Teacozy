@@ -85,3 +85,34 @@ h4, h2 {
   width: 300px;
   padding: 20px 10px 0px 10px;
 }
+
+/* content locations */
+
+.locations_content {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 80px;
+
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations_content h2 {
+  padding-top: 50px;
+  display: block;
+}
+
+.locations {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+}
+
+.locations p {
+  padding: 10px 0px;
+}
