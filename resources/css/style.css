@@ -1,4 +1,5 @@
 /* universal styles */
+
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -115,4 +116,17 @@ h4, h2 {
 
 .locations p {
   padding: 10px 0px;
+}
+
+/* content locations */
+
+.footer {
+  height: 200px;
+  display: block;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
 }
