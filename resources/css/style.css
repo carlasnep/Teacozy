@@ -11,8 +11,6 @@ body {
 
 a {
   color: seashell;
-  visited: seashell;
-  linkcolor: seashell;
 }
 
 .container {
@@ -32,7 +30,7 @@ h4, h2 {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  flex-flow: row; wrap;
+  flex-flow: row wrap;
   height: 69px;
   width: 1200px;
   border-bottom: 1px solid seashell;
